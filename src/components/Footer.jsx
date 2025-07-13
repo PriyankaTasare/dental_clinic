@@ -6,4 +6,4 @@ function Footer() {
   );
 }
 
-export default Footer; // ✅ This line is required!
+export default Footer; 
