@@ -1,4 +1,4 @@
-import '../styles/main.css'; // ✅ Make sure path is correct
+import '../styles/main.css'; // 
 
 function Home() {
   return (
@@ -9,7 +9,6 @@ function Home() {
         <p>Your trusted destination for expert dental care</p>
       </section>
 
-      {/* Introduction Section */}
       <section className="intro-section">
         <h2>About Us</h2>
         <p>
@@ -20,7 +19,7 @@ function Home() {
         </p>
       </section>
 
-      {/* Services Overview */}
+     
       <section className="services-section">
         <h2>Our Services</h2>
         <ul>
@@ -32,7 +31,7 @@ function Home() {
         </ul>
       </section>
 
-      {/* Call to Action */}
+    
       <section className="cta-section">
         <h3>Book your appointment today!</h3>
         <button className="book-btn">Book Appointment</button>
