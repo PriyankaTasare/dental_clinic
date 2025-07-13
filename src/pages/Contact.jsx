@@ -23,7 +23,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Basic validation
+  
     if (
       !formData.name ||
       !formData.email ||
@@ -35,7 +35,7 @@ function Contact() {
     }
 
     try {
-      // Simulate API submission
+     
       await axios.post('https://jsonplaceholder.typicode.com/posts', formData);
       setSubmitted(true);
       setError('');
@@ -87,7 +87,7 @@ function Contact() {
           )}
         </form>
 
-        {/* Contact Info & Map */}
+       
         <div className="contact-info">
           <h3>Clinic Details</h3>
           <p>
