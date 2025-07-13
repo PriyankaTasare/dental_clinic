@@ -1,4 +1,4 @@
-import '../styles/main.css'; // ✅ Make sure CSS is loaded
+import '../styles/main.css'; 
 
 function About() {
   return (
@@ -14,7 +14,7 @@ function About() {
         </p>
       </section>
 
-      {/* Practitioner Details */}
+     
       <section className="practitioner-details">
         <h2>Meet Our Dentists</h2>
         <ul>
@@ -29,7 +29,7 @@ function About() {
         </ul>
       </section>
 
-      {/* Mission/Philosophy */}
+    
       <section className="mission-section">
         <h2>Our Mission</h2>
         <p>
